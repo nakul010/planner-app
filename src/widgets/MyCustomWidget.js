@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/styles.css';
 
-export default function CalculatorWidget() {
+export default function MyCustomWidget() {
     const [expression, setExpression] = useState('');
 
     const handleButtonClick = (value) => {
